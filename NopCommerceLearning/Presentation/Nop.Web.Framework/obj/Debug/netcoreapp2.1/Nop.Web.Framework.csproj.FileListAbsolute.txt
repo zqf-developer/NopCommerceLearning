@@ -1,0 +1,8 @@
+E:\ProfessionalFiles\1.C#.NET Project\NopCommerce_Learning\NopCommerceLearning\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.1\Nop.Web.Framework.deps.json
+E:\ProfessionalFiles\1.C#.NET Project\NopCommerce_Learning\NopCommerceLearning\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.1\Nop.Web.Framework.dll
+E:\ProfessionalFiles\1.C#.NET Project\NopCommerce_Learning\NopCommerceLearning\Presentation\Nop.Web.Framework\bin\Debug\netcoreapp2.1\Nop.Web.Framework.pdb
+E:\ProfessionalFiles\1.C#.NET Project\NopCommerce_Learning\NopCommerceLearning\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.1\Nop.Web.Framework.csproj.CoreCompileInputs.cache
+E:\ProfessionalFiles\1.C#.NET Project\NopCommerce_Learning\NopCommerceLearning\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.1\Nop.Web.Framework.AssemblyInfoInputs.cache
+E:\ProfessionalFiles\1.C#.NET Project\NopCommerce_Learning\NopCommerceLearning\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.1\Nop.Web.Framework.AssemblyInfo.cs
+E:\ProfessionalFiles\1.C#.NET Project\NopCommerce_Learning\NopCommerceLearning\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.1\Nop.Web.Framework.dll
+E:\ProfessionalFiles\1.C#.NET Project\NopCommerce_Learning\NopCommerceLearning\Presentation\Nop.Web.Framework\obj\Debug\netcoreapp2.1\Nop.Web.Framework.pdb
