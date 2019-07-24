@@ -207,6 +207,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Nop.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Nop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nop.Core.dll": {}
+        }
+      },
+      "Nop.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Nop.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nop.Data.dll": {}
+        }
       }
     }
   },
@@ -680,11 +703,23 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Nop.Core/1.0.0": {
+      "type": "project",
+      "path": "../Nop.Core/Nop.Core.csproj",
+      "msbuildProject": "../Nop.Core/Nop.Core.csproj"
+    },
+    "Nop.Data/1.0.0": {
+      "type": "project",
+      "path": "../Nop.Data/Nop.Data.csproj",
+      "msbuildProject": "../Nop.Data/Nop.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Nop.Core >= 1.0.0",
+      "Nop.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -716,7 +751,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            },
+            "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+              "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Data\\Nop.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

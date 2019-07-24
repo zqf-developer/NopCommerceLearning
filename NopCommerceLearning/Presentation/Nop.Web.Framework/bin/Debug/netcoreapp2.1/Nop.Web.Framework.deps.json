@@ -7,14 +7,56 @@
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "Nop.Web.Framework/1.0.0": {
+        "dependencies": {
+          "Nop.Core": "1.0.0",
+          "Nop.Data": "1.0.0",
+          "Nop.Services": "1.0.0"
+        },
         "runtime": {
           "Nop.Web.Framework.dll": {}
+        }
+      },
+      "Nop.Core/1.0.0": {
+        "runtime": {
+          "Nop.Core.dll": {}
+        }
+      },
+      "Nop.Data/1.0.0": {
+        "dependencies": {
+          "Nop.Core": "1.0.0"
+        },
+        "runtime": {
+          "Nop.Data.dll": {}
+        }
+      },
+      "Nop.Services/1.0.0": {
+        "dependencies": {
+          "Nop.Core": "1.0.0",
+          "Nop.Data": "1.0.0"
+        },
+        "runtime": {
+          "Nop.Services.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Nop.Web.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nop.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nop.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nop.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

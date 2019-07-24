@@ -4333,6 +4333,58 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Nop.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Nop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nop.Core.dll": {}
+        }
+      },
+      "Nop.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Nop.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nop.Data.dll": {}
+        }
+      },
+      "Nop.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Nop.Core": "1.0.0",
+          "Nop.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nop.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nop.Services.dll": {}
+        }
+      },
+      "Nop.Web.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Nop.Core": "1.0.0",
+          "Nop.Data": "1.0.0",
+          "Nop.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nop.Web.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nop.Web.Framework.dll": {}
+        }
       }
     }
   },
@@ -11791,13 +11843,37 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Nop.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Libraries/Nop.Core/Nop.Core.csproj",
+      "msbuildProject": "../../Libraries/Nop.Core/Nop.Core.csproj"
+    },
+    "Nop.Data/1.0.0": {
+      "type": "project",
+      "path": "../../Libraries/Nop.Data/Nop.Data.csproj",
+      "msbuildProject": "../../Libraries/Nop.Data/Nop.Data.csproj"
+    },
+    "Nop.Services/1.0.0": {
+      "type": "project",
+      "path": "../../Libraries/Nop.Services/Nop.Services.csproj",
+      "msbuildProject": "../../Libraries/Nop.Services/Nop.Services.csproj"
+    },
+    "Nop.Web.Framework/1.0.0": {
+      "type": "project",
+      "path": "../Nop.Web.Framework/Nop.Web.Framework.csproj",
+      "msbuildProject": "../Nop.Web.Framework/Nop.Web.Framework.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Nop.Core >= 1.0.0",
+      "Nop.Data >= 1.0.0",
+      "Nop.Services >= 1.0.0",
+      "Nop.Web.Framework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11829,7 +11905,20 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            },
+            "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+              "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Data\\Nop.Data.csproj"
+            },
+            "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+              "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Services\\Nop.Services.csproj"
+            },
+            "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+              "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

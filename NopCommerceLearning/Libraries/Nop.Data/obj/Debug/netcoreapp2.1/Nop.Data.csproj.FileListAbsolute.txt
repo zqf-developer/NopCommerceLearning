@@ -1,0 +1,12 @@
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\bin\Debug\netcoreapp2.1\Nop.Data.deps.json
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\bin\Debug\netcoreapp2.1\Nop.Data.dll
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\bin\Debug\netcoreapp2.1\Nop.Data.pdb
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\bin\Debug\netcoreapp2.1\Nop.Core.dll
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\bin\Debug\netcoreapp2.1\Nop.Core.pdb
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\obj\Debug\netcoreapp2.1\Nop.Data.csprojAssemblyReference.cache
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\obj\Debug\netcoreapp2.1\Nop.Data.csproj.CoreCompileInputs.cache
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\obj\Debug\netcoreapp2.1\Nop.Data.AssemblyInfoInputs.cache
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\obj\Debug\netcoreapp2.1\Nop.Data.AssemblyInfo.cs
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\obj\Debug\netcoreapp2.1\Nop.Data.csproj.CopyComplete
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\obj\Debug\netcoreapp2.1\Nop.Data.dll
+D:\ProfessionalFiles\DesignPatterns\NopCommerceLearning\Libraries\Nop.Data\obj\Debug\netcoreapp2.1\Nop.Data.pdb

@@ -26,7 +26,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "Nop.Core": "1.0.0",
+          "Nop.Data": "1.0.0",
+          "Nop.Services": "1.0.0",
+          "Nop.Web.Framework": "1.0.0"
         },
         "runtime": {
           "Nop.Web.dll": {}
@@ -205,6 +209,50 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0"
+        }
+      },
+      "Nop.Core/1.0.0": {
+        "runtime": {
+          "Nop.Core.dll": {}
+        },
+        "compile": {
+          "Nop.Core.dll": {}
+        }
+      },
+      "Nop.Data/1.0.0": {
+        "dependencies": {
+          "Nop.Core": "1.0.0"
+        },
+        "runtime": {
+          "Nop.Data.dll": {}
+        },
+        "compile": {
+          "Nop.Data.dll": {}
+        }
+      },
+      "Nop.Services/1.0.0": {
+        "dependencies": {
+          "Nop.Core": "1.0.0",
+          "Nop.Data": "1.0.0"
+        },
+        "runtime": {
+          "Nop.Services.dll": {}
+        },
+        "compile": {
+          "Nop.Services.dll": {}
+        }
+      },
+      "Nop.Web.Framework/1.0.0": {
+        "dependencies": {
+          "Nop.Core": "1.0.0",
+          "Nop.Data": "1.0.0",
+          "Nop.Services": "1.0.0"
+        },
+        "runtime": {
+          "Nop.Web.Framework.dll": {}
+        },
+        "compile": {
+          "Nop.Web.Framework.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3210,6 +3258,26 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Nop.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nop.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nop.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nop.Web.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

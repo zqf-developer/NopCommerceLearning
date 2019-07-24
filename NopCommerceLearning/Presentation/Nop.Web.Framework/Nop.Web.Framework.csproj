@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Nop.Core\Nop.Core.csproj" />
+    <ProjectReference Include="..\..\Libraries\Nop.Data\Nop.Data.csproj" />
+    <ProjectReference Include="..\..\Libraries\Nop.Services\Nop.Services.csproj" />
+  </ItemGroup>
+
 </Project>
