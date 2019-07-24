@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Core\\Nop.Core.csproj",
-      "projectName": "Nop.Core",
-      "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "projectUniqueName": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "projectName": "Nop.Services",
+      "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Services\\Nop.Services.csproj",
       "packagesPath": "C:\\Users\\qingfengzhuo\\.nuget\\packages\\",
-      "outputPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Core\\obj\\",
+      "outputPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Libraries\\Nop.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

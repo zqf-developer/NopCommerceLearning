@@ -11807,11 +11807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ProfessionalFiles\\1.C#.NET Project\\NopCommerce_Learning\\NopCommerceLearning\\Presentation\\Nop.Web\\Nop.Web.csproj",
+      "projectUniqueName": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Presentation\\Nop.Web\\Nop.Web.csproj",
       "projectName": "Nop.Web",
-      "projectPath": "E:\\ProfessionalFiles\\1.C#.NET Project\\NopCommerce_Learning\\NopCommerceLearning\\Presentation\\Nop.Web\\Nop.Web.csproj",
+      "projectPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Presentation\\Nop.Web\\Nop.Web.csproj",
       "packagesPath": "C:\\Users\\qingfengzhuo\\.nuget\\packages\\",
-      "outputPath": "E:\\ProfessionalFiles\\1.C#.NET Project\\NopCommerce_Learning\\NopCommerceLearning\\Presentation\\Nop.Web\\obj\\",
+      "outputPath": "D:\\ProfessionalFiles\\DesignPatterns\\NopCommerceLearning\\Presentation\\Nop.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
